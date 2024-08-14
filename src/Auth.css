@@ -5,7 +5,7 @@
     height: 100vh;
   }
   
-  .auth-side-image {
+  .auth-side-image { 
     flex: 1;
     /* background: url('../assets/sideImage.jpg') no-repeat center center/cover; */
   }
