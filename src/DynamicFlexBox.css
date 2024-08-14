@@ -1,0 +1,95 @@
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background: #4b4ba2; /* Gradient background */
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/pw-maze.png'); /* Subtle pattern overlay */
+    background-blend-mode: overlay; /* Blend pattern with gradient */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    margin-bottom: 20px; /* Space between items */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    max-width: 100vw; /* Ensure it doesn't exceed viewport width */
+    position: relative; /* Allow absolute positioning of children */
+  }
+  
+  .flex-container:hover {
+    transform: translateY(-5px); /* Subtle lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  .image-container {
+    flex: 0 0 40%; /* Set image container to take up at least 40% of the width */
+    margin-right: 20px;
+  }
+  
+  .flex-image {
+    width: 100%; /* Ensure image covers the container width */
+    height: 290px; /* Reduced height for the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flex-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Allow content to take up remaining space */
+  }
+  
+  .flex-header {
+    font-size: 22px; /* Larger header for emphasis */
+    color: #333;
+    margin-bottom: 12px;
+    font-weight: bold; /* Bold header text */
+  }
+  
+  .flex-details {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of detail items */
+    gap: 12px; /* Space between detail items */
+  }
+  
+  .detail-item {
+    background-color: #e0f2f1; /* Light teal background for a fresh look */
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #004d40; /* Darker teal color for text */
+    flex: 1 1 calc(50% - 12px); /* Adjust to fit two items per row with gap */
+    box-sizing: border-box;
+  }
+  
+  .bid-button {
+    position: absolute; /* Absolute positioning to place it in the right corner */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #009688; /* Teal background color */
+    color: #ffffff;
+    font-size: 16px; /* Larger font size for button */
+    font-weight: bold; /* Bold text for the button */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  }
+  
+  .bid-button:hover {
+    background-color: #00796b; /* Darker teal on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between items */
+    padding: 20px;
+    margin: 0; /* Remove default margin */
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
