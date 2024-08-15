@@ -1,34 +1,74 @@
 /* Header.css */
 .header {
-    background-color: #555; /* User's preferred color */
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  
-  .nav {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-item {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    border-radius: 5px;
-  }
-  
-  .nav-item:hover {
-    background-color: #777;
-    color: #fff;
-  }
-  
+  background-color: #175ddc; /* User's preferred color */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+}
+
+.nav-item:hover {
+  background-color: #777;
+  color: #fff;
+}
+
+.user-section {
+  position: relative;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.user-name {
+  margin-right: 10px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #333;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown.open {
+  display: block;
+}
+
+.dropdown-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #444;
+}

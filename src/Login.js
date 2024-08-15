@@ -1,19 +1,19 @@
 // src/components/Login.js
 
 import React from 'react';
-// import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import AuthLayout from './AuthLayout';
 import './Auth.css';
 
 const Login = () => {
-//   const history = useHistory();
+  const navigate = useNavigate();
 
   const handleLogin = (event) => {
     event.preventDefault();
     const isSuccess = true; // Replace with actual success condition
 
     if (isSuccess) {
-    //   history.push('/home');
+      navigate('/home');
     } else {
       alert('Login failed. Please check your credentials and try again.');
     }

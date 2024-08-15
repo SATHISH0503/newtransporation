@@ -1,0 +1,87 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  
+  .discount-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px; /* Increased margin for better spacing */
+    width: 100%;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .discount-card.left {
+    flex-direction: row;
+  }
+  
+  .discount-card.right {
+    flex-direction: row-reverse;
+  }
+  
+  .product-image {
+    width: 500px; /* Larger image size */
+    height: auto;
+    border-radius: 10px;
+    margin: 0 20px;
+  }
+  
+  .discount-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .product-title {
+    color: #333;
+    font-size: 1.8em; /* Larger font size */
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .discount-details {
+    margin: 5px 0;
+    font-size: 2.5em; /* Larger font size */
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .product-description {
+    color: #666;
+    font-size: 1.1em; /* Larger font size */
+    line-height: 1.6;
+  }
+  
+  .cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em; /* Larger font size for button text */
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cta-button i {
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.01);
+  }
+  

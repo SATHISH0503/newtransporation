@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './Auth.css';
-// import companyLogo from '../assets/companyLogo.png'; // Make sure to add your company logo here
+// import companyLogo from '../assets/companyLogo.png'; // Add your company logo here
 
 const AuthLayout = ({ children }) => {
   return (

@@ -1,0 +1,147 @@
+/* src/components/OrderList.css */
+.order-list-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e0f7fa; /* Light cyan background */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .order-list-container h2 {
+    text-align: center;
+    color: #00796b; /* Darker teal */
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .order-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff; /* White background for the card */
+    border: 1px solid #b2dfdb; /* Light teal border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .order-info {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+  }
+  
+  .order-image-container {
+    margin-right: 20px;
+  }
+  
+  .order-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid #00796b; /* Teal border around the image */
+  }
+  
+  .order-details {
+    flex: 1;
+  }
+  
+  .order-details p {
+    margin: 5px 0;
+    color: #004d40; /* Dark teal text color */
+  }
+  
+  .order-details p strong {
+    color: #00796b; /* Teal for strong labels */
+  }
+  
+  .view-more-button {
+    background-color: #00796b; /* Teal background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-more-button a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .view-more-button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+  }
+  
+  /* src/components/OrderDetails.css */
+  .order-details-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e0f7fa; /* Light cyan background */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .order-details-container h2 {
+    text-align: center;
+    color: #00796b; /* Darker teal */
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .order-info {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .order-image-container {
+    margin-right: 20px;
+  }
+  
+  .order-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid #00796b; /* Teal border around the image */
+  }
+  
+  .order-details-content {
+    flex: 1;
+  }
+  
+  .order-details-content p {
+    margin: 10px 0;
+    color: #004d40; /* Dark teal text color */
+  }
+  
+  .order-details-content p strong {
+    color: #00796b; /* Teal for strong labels */
+  }
+  
+  .order-map {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .map-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
