@@ -84,8 +84,8 @@ function App() {
   };
   return (
     <Router>
-      <Routes>
       <Header />
+      <Routes>
         <Route
           path="/home"
           element={
