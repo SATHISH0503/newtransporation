@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /* background: url('../public/Image20240814142027.jpg') no-repeat center center/cover;  */
+  background: url('../public/Image20240814142027.jpg') no-repeat center center/cover; 
   /* Add your background image here */
   animation: backgroundAnimation 10s infinite alternate;
 }
