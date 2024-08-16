@@ -86,7 +86,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/"
+          path="newtransporation/"
           element={
             <>
               <Header />
@@ -96,7 +96,7 @@ function App() {
           }
         />
         <Route
-          path="/search-load"
+          path="newtransporation/search-load"
           element={
             <>
               <Header/>
@@ -105,7 +105,7 @@ function App() {
           }
         />
         <Route
-          path="/add-driver"
+          path="newtransporation/add-driver"
           element={
             <>
               <Header />
@@ -113,21 +113,21 @@ function App() {
             </>
           }
         />
-        <Route path="/add-vehicle" element={
+        <Route path="newtransporation/add-vehicle" element={
           <>
           <Header/>
           <VehicleList vehicles={vehicles} />
           </>
           } />
-        <Route path="/order-load" element={
+        <Route path="newtransporation/order-load" element={
           <>
           <Header/>
           <OrderList orders={dummyDataOrder} />
           </>
           } />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/order/:id" element={<OrderDetails orders={dummyDataOrder} />} />
+        <Route path="newtransporation/login" element={<Login />} />
+        <Route path="newtransporation/signup" element={<Signup />} />
+        <Route path="newtransporation/order/:id" element={<OrderDetails orders={dummyDataOrder} />} />
       </Routes>
     </Router>
   );
