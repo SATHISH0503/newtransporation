@@ -90,7 +90,7 @@ function App() {
           element={
             <>
               <Header />
-              <HomePage userType="customer" />
+              <HomePage userType="driver" />
               {/* <Footer /> */}
             </>
           }
